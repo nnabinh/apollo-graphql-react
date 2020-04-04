@@ -1,4 +1,4 @@
-const mockBooks = [
+export const mockBooks = [
   {
     title: 'Harry Potter and the Chamber of Secrets',
     author: {
@@ -12,7 +12,3 @@ const mockBooks = [
     },
   },
 ];
-
-module.exports = {
-  mockBooks,
-};

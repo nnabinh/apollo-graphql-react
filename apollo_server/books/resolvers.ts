@@ -1,13 +1,9 @@
-const { mockBooks } = require('./mock');
+import { mockBooks } from './mock';
 
 // Resolvers define the technique for fetching the types defined in the
 // schema. This resolver retrieves books from the "books" array above.
-const bookResolvers = {
+export const bookResolvers = {
   Query: {
     getBooks: () => mockBooks,
   },
-};
-
-module.exports = {
-  bookResolvers,
 };
