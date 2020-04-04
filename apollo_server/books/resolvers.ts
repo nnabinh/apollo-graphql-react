@@ -4,6 +4,6 @@ import { mockBooks } from './mock';
 // schema. This resolver retrieves books from the "books" array above.
 export const bookResolvers = {
   Query: {
-    getBooks: () => mockBooks,
+    books: () => mockBooks,
   },
 };

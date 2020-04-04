@@ -16,6 +16,6 @@ export const bookTypeDefs = gql`
   # clients can execute, along with the return type for each. In this
   # case, the "books" query returns an array of zero or more Books (defined above).
   extend type Query {
-    getBooks: [Book]
+    books: [Book]
   }
 `;

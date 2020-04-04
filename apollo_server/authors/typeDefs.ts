@@ -12,6 +12,6 @@ export const authorTypeDefs = gql`
   }
 
   extend type Query {
-    getAuthors: [Author]
+    authors: [Author]
   }
 `;
