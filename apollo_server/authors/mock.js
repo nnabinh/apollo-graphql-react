@@ -7,6 +7,6 @@ const mockAuthors = [
   },
 ];
 
-module.exportss = {
+module.exports = {
   mockAuthors,
 };

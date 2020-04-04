@@ -4,7 +4,7 @@ const { mockBooks } = require('./mock');
 // schema. This resolver retrieves books from the "books" array above.
 const bookResolvers = {
   Query: {
-    getBooks: () => {},
+    getBooks: () => mockBooks,
   },
 };
 
